@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kedai Summoki menyediakan dimsum lezat dengan pilihan topping favorit dan harga terjangkau.">
+    <title>Kedai Summoki</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#home" class="navbar-logo">kedai<span>summoki</span>.</a>
+
+        <div class="navbar-nav" id="navbar-nav">
+            <a href="#home">Home</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#menu">Menu</a>
+            <a href="#promo">Promo</a>
+            <a href="#contact">Kontak</a>
+        </div>
+
+        <div class="navbar-extra">
+            <a href="#menu" aria-label="Lihat menu"><i data-feather="search"></i></a>
+            <a href="#menu" aria-label="Lihat produk"><i data-feather="shopping-cart"></i></a>
+            <button type="button" id="hamburger-menu" aria-label="Buka menu" aria-expanded="false">
+                <i data-feather="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <main class="content">
+            <p class="eyebrow">Dimsum favorit untuk setiap suasana</p>
+            <h1>Nikmati Enaknya Dimsum <span>Summoki</span></h1>
+            <p>Dimsum lezat dengan tekstur lembut dan topping favorit seperti mentai, bolognese, dan barbeque. Cocok untuk menemani waktu santai bersama teman dan keluarga.</p>
+            <a href="https://wa.me/089648536949?text=Halo%20Summoki%2C%20saya%20ingin%20memesan%20dimsum." class="cta" target="_blank" rel="noopener">Pesan Sekarang</a>
+        </main>
+    </section>
+
+    <section id="about" class="about section">
+        <div class="section-heading">
+            <p class="eyebrow">Kenalan dengan kami</p>
+            <h2><span>Tentang</span> Kami</h2>
+        </div>
+        <div class="about-row">
+            <div class="about-img">
+                <img src="img/tentang-kami.jpg" alt="Dimsum Kedai Summoki" loading="lazy">
+            </div>
+            <div class="about-content">
+                <h3>Kenapa memilih Dimsum Summoki?</h3>
+                <p>Kedai Summoki hadir untuk memberikan pilihan camilan yang lezat dan praktis. Dimsum disajikan dengan pilihan topping yang menggugah selera dan cocok dinikmati kapan saja.</p>
+                <p>Kami ingin memberikan pengalaman membeli dimsum yang mudah, pelayanan yang ramah, serta pilihan menu yang bisa dinikmati bersama teman maupun keluarga.</p>
+                <div class="feature-list">
+                    <span><i data-feather="check-circle"></i> Pilihan topping favorit</span>
+                    <span><i data-feather="check-circle"></i> Pemesanan mudah</span>
+                    <span><i data-feather="check-circle"></i> Cocok untuk berbagai suasana</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu section">
+        <div class="section-heading">
+            <p class="eyebrow">Pilihan untukmu</p>
+            <h2><span>Menu</span> Kami</h2>
+            <p>Pilih varian favoritmu dan pesan melalui WhatsApp.</p>
+        </div>
+
+        <div class="menu-grid">
+            <article class="menu-card">
+                <img src="img/menu/1.jpg" alt="Dimsum topping mentai" loading="lazy">
+                <div class="menu-card-body">
+                    <h3>Dimsum Mentai</h3>
+                    <p>Dimsum gurih dengan topping saus mentai.</p>
+                    <div class="menu-card-bottom"><strong>Rp30.000</strong><a class="order-link" href="https://wa.me/6281234567890?text=Halo%20Summoki%2C%20saya%20ingin%20memesan%20Dimsum%20Mentai." target="_blank" rel="noopener">Pesan</a></div>
+                </div>
+            </article>
+            <article class="menu-card">
+                <img src="img/menu/1.jpg" alt="Dimsum topping bolognese" loading="lazy">
+                <div class="menu-card-body">
+                    <h3>Dimsum Bolognese</h3>
+                    <p>Dimsum dengan saus bolognese yang nikmat.</p>
+                    <div class="menu-card-bottom"><strong>Rp30.000</strong><a class="order-link" href="https://wa.me/6281234567890?text=Halo%20Summoki%2C%20saya%20ingin%20memesan%20Dimsum%20Bolognese." target="_blank" rel="noopener">Pesan</a></div>
+                </div>
+            </article>
+            <article class="menu-card">
+                <img src="img/menu/1.jpg" alt="Dimsum topping barbeque" loading="lazy">
+                <div class="menu-card-body">
+                    <h3>Dimsum Barbeque</h3>
+                    <p>Perpaduan dimsum dan saus barbeque.</p>
+                    <div class="menu-card-bottom"><strong>Rp15.000</strong><a class="order-link" href="https://wa.me/6281234567890?text=Halo%20Summoki%2C%20saya%20ingin%20memesan%20Dimsum%20Barbeque." target="_blank" rel="noopener">Pesan</a></div>
+                </div>
+            </article>
+            <article class="menu-card">
+                <img src="img/menu/1.jpg" alt="Dimsum mix" loading="lazy">
+                <div class="menu-card-body">
+                    <h3>Dimsum Mix</h3>
+                    <p>Pilihan campuran untuk mencoba beberapa rasa.</p>
+                    <div class="menu-card-bottom"><strong>Rp30.000</strong><a class="order-link" href="https://wa.me/6281234567890?text=Halo%20Summoki%2C%20saya%20ingin%20memesan%20Dimsum%20Mix." target="_blank" rel="noopener">Pesan</a></div>
+                </div>
+            </article>
+        </div>
+
+    </section>
+
+
+
+    <section id="promo" class="promo section">
+        <div class="promo-content">
+            <p class="eyebrow">Temukan favoritmu</p>
+            <h2>Waktunya ngemil <span>Dimsum!</span></h2>
+            <p>Hubungi Kedai Summoki untuk menanyakan ketersediaan menu, harga terbaru, dan promo yang sedang berlangsung.</p>
+            <a class="cta" href="https://wa.me/6281234567890?text=Halo%20Summoki%2C%20apakah%20ada%20promo%20hari%20ini%3F" target="_blank" rel="noopener">Tanya Promo</a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section">
+        <div class="section-heading">
+            <p class="eyebrow">Kami siap membantu</p>
+            <h2><span>Kontak</span> Kami</h2>
+            <p>Hubungi kami untuk bertanya atau melakukan pemesanan.</p>
+        </div>
+        <div class="contact-card">
+            <div><i data-feather="message-circle"></i><h3>WhatsApp</h3><p>Pesan menu atau tanyakan informasi produk.</p><a href="https://wa.me/089648536949" target="_blank" rel="noopener">Chat Summoki</a></div>
+            <div><i data-feather="instagram"></i><h3>Instagram</h3><p>Ikuti informasi menu dan promo terbaru.</p><a href="https://www.instagram.com/summoki.id?psln=MTZhN2FmZm1icWY2bQ==" target="_blank" rel="noopener">Kunjungi Instagram</a></div>
+            <div><i data-feather="clock"></i><h3>Jam Operasional</h3><p>Silakan hubungi kami untuk memastikan jam buka dan ketersediaan produk.</p></div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <p>&copy; <span id="year"></span> Kedai Summoki. Dimsum favoritmu.</p>
+        <p>Dibuat sebagai website bisnis Summoki.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
